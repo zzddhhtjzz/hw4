@@ -1,8 +1,11 @@
 package edu.neu.cs5200.msn.ds.model;
 
+import java.util.List;
+
+
 public class Cast {
 
-	private int id;
+	private int id
 	private String characterName;
 	private int actorId;
 	private int movieId;
@@ -27,7 +30,7 @@ public class Cast {
 	public void setActorId(int actorId) {
 		this.actorId = actorId;
 	}
-	public int getMovieId() {
+	public String getMovieId() {
 		return movieId;
 	}
 	public void setMovieId(int movieId) {

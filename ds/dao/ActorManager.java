@@ -13,8 +13,8 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-
-import edu.neu.cs5200.msn.ds.model.Actor;
+import edu.neu.cs5200.msn.ds.model.Movie;
+import edu.neu.cs5200.msn.ds.model.User;
 
 public class ActorManager {
 
