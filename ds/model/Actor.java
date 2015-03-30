@@ -1,6 +1,5 @@
 package edu.neu.cs5200.msn.ds.model;
 
-import java.util.List;
 import java.sql.Date; 
 
 public class Actor {

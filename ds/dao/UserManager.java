@@ -114,7 +114,7 @@ public class UserManager {
 		try {
 			Connection connection = ds.getConnection();
 			PreparedStatement statement = connection.prepareStatement(sql);
-			statement.setId(1, user.getId());
+			statement.setInt(1, user.getId());
 			statement.setString(2, user.getFirstName());
 			statement.setString(3, user.getLastName());
 			statement.setString(4, user.getPassword());
